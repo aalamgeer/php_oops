@@ -4,7 +4,7 @@
 	 function name(){ 	// 
 		echo "My name is aalamgeer<br>";
 	}
-	abstract function Age(); // abstract method can not cotain body, abstract method must be declare in child class otherwise 
+	abstract function Age(); // abstract method can not contain body, abstract method must be declare in child class otherwise 
 								//error shows
 	function education(){
 		echo "B.Tech <br>";

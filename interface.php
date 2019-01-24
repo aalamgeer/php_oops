@@ -19,12 +19,16 @@ echo $res; */
 
 interface abhishek{ // NOTE *Interface can't instantiated, is has no properties only method declaration (without body) 
 	function nature();
+	function hobby();
 }
 
 
 class aalam implements abhishek {
 	function nature(){
 		echo "AalamGeer is angry ";
+	}
+	function hobby(){  // Method declare in interface must be define in class
+		
 	}
 }
 
